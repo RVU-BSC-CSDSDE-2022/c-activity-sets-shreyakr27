@@ -4,12 +4,12 @@ int main()
 {
   int A, B;
   int sum;
-  printf("Enter A :cd set01");
+  printf("Enter A :");
   scanf("%d", &A);
   printf("Enter B :");
   scanf("%d", &B);
   sum = add(A, B);
-  printf("%d",sum);
+  printf("The sum of 1 and 2 is %d",sum);
 }
 
 int add(int A, int B)
